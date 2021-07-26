@@ -1,0 +1,183 @@
+@media screen and (max-width: 480px)
+{
+    header { display: block; }
+    .logo { position: relative;
+            padding-top: 10px;   
+            height: 50px;
+            width: 90px; }    
+    #haut-de-page h3 { font-size: 28px; }
+    nav ul { padding-left: 30px; }
+    nav li { font-size: larger; 
+             font-weight: 600;
+             width: 160px; 
+             margin-right: 0;
+             text-align: center; }
+    nav ul li:hover { border-bottom: solid 2px blue;
+                   border-top: solid 2px transparent;
+                   padding-bottom: 10px; }   
+    nav li:nth-child(2) { font-weight: normal; }
+    nav li:nth-child(3) { position: absolute;
+                          right: 20px; 
+                          top: 20px; }    
+    .filtres { display: grid; 
+               grid-template: "a a" ; 
+               justify-content: left; }    
+    .titres { grid-area: 1/ 1/ 2/ 3; }
+    .btn:nth-child(4) { grid-area: 3/ 1/ 4/ 3;}
+    .btn { width: max-content;
+           margin-top: 15px;
+           margin-right: 0; }    
+    #hebergements { flex-direction: column-reverse; }
+    #resultats { background-color: white; }
+    .resultats-2 { display: flex;
+                   flex-direction: column; } 
+    #resultats article { height: 180px; }
+    #resultats h4 { top: -22px; }
+    .resultats-2 p { top: -42px; }
+    .resultats-2 div { margin-left: 10px; }
+    #resultats i { top: -54px; 
+                   font-size: 10px; }
+    #resultats img { height: 120px; }
+    #populaires { border-radius: 20px 20px 0 0; }   
+    #populaires h3 { margin-left: 0; }
+    #legende i { padding-left: 55px; }
+    #activites { flex-flow: column wrap;
+                 height: 150%; }
+    .act-1 { display: flex;
+             flex-direction: column;
+             margin: auto;
+             width: 85%; }
+    #activites div { height: 180px; 
+                     margin: 20px 0 20px 0; }             
+    .act-2 { display: flex; 
+             flex-direction: column; 
+             margin: auto;
+             width: 85%; } 
+    #activites h4 { height: 30px;
+                    top: 120px; }
+    #actmars h3 { margin: 0 0 10px 30px; }
+    footer { display: flex; 
+             flex-direction: column; }
+    #search { display: none; }
+    .fa-search::before { display: flex; 
+                         padding: 0;
+                         color: white;
+                         background-color: blue;
+                         padding: 15px;
+                         border-radius: 10px; }    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px)
+{
+    .filtres { display: grid; 
+               grid-template: "a a";
+               width: 70%; }
+    .titres { grid-area: 1/ 1/ 2/ 3; }
+    .btn { width: max-content;
+           margin-top: 30px;
+           margin-right: 0; }
+    #hebergements { flex-direction: column;
+                    margin-top: 30px; }
+    #populaires { margin-top: 30px; } 
+    .populaires-2 { width: 60%; }   
+    .populaires-2 article { grid-template-columns: 50% 50%; }
+    #activites { display: block; }
+    .act-1, .act-2 { display: flex;
+                     width: 100%;
+                     height: 180px;
+                     margin-top: 30px; }
+    #activites h4 { height: 20px; 
+                    top: 122px;}
+}
+
+@media screen and (max-width: 480px)
+{
+    header { display: block; }
+    .logo { position: relative;
+            padding-top: 10px;   
+            height: 50px;
+            width: 90px; }    
+    #haut-de-page h3 { font-size: 28px; }
+    nav ul { padding-left: 30px; }
+    nav li { font-size: larger; 
+             font-weight: 600;
+             width: 160px; 
+             margin-right: 0;
+             text-align: center; }
+    nav ul li:hover { border-bottom: solid 2px blue;
+                   border-top: solid 2px transparent;
+                   padding-bottom: 10px; }   
+    nav li:nth-child(2) { font-weight: normal; }
+    nav li:nth-child(3) { position: absolute;
+                          right: 20px; 
+                          top: 20px; }    
+    .filtres { display: grid; 
+               grid-template: "a a" ; 
+               justify-content: left; }    
+    .titres { grid-area: 1/ 1/ 2/ 3; }
+    .btn:nth-child(4) { grid-area: 3/ 1/ 4/ 3;}
+    .btn { width: max-content;
+           margin-top: 15px;
+           margin-right: 0; }    
+    #hebergements { flex-direction: column-reverse; }
+    #resultats { background-color: white; }
+    .resultats-2 { display: flex;
+                   flex-direction: column; } 
+    #resultats article { height: 180px; }
+    #resultats h4 { top: -22px; }
+    .resultats-2 p { top: -42px; }
+    .resultats-2 div { margin-left: 10px; }
+    #resultats i { top: -54px; 
+                   font-size: 10px; }
+    #resultats img { height: 120px; }
+    #populaires { border-radius: 20px 20px 0 0; }   
+    #activites { flex-flow: column wrap;
+                 height: 150%; }
+    .act-1 { display: flex;
+             flex-direction: column;
+             margin: auto;
+             width: 85%; }
+    #activites div { height: 180px; 
+                     margin: 20px 0 20px 0; }             
+    .act-2 { display: flex; 
+             flex-direction: column; 
+             margin: auto;
+             width: 85%; } 
+    #activites h4 { height: 30px;
+                    top: 120px; }
+    #actmars h3 { margin: 0 0 10px 30px; }
+    footer { display: flex; 
+             flex-direction: column; }
+    #search { display: none; }
+    .fa-search::before { display: flex; 
+                         padding: 0;
+                         color: white;
+                         background-color: blue;
+                         padding: 15px;
+                         border-radius: 10px; }    
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px)
+{
+    .filtres { display: grid; 
+               grid-template: "a a";
+               width: 70%; }
+    .titres { grid-area: 1/ 1/ 2/ 3; }
+    .btn { width: max-content;
+           margin-top: 30px;
+           margin-right: 0; }
+    #hebergements { flex-direction: column;
+                    margin-top: 30px; }
+    #populaires { margin-top: 30px; } 
+    .populaires-2 { width: 60%; }   
+    .populaires-2 article { grid-template-columns: 50% 50%; }
+    #activites { display: block; }
+    .act-1, .act-2 { display: flex;
+                     width: 100%;
+                     height: 180px;
+                     margin-top: 30px; }
+    #activites h4 { height: 20px; 
+                    top: 122px;}
+
+
+}

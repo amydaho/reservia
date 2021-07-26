@@ -1,0 +1,141 @@
+@font-face
+{
+    font-family: "Raleway";
+    src: url(raleway/static/Raleway-Black.ttf) url(raleway/static/Raleway-BlackItalic.ttf) url(raleway/static/Raleway-BoldItalic.ttf) url(raleway/static/Raleway-Bold.ttf) url(raleway/static/Raleway-ExtraLight.ttf) 
+    url(raleway/static/Raleway-ExtraLightItalic.ttf) url(raleway/static/Raleway-Italic.ttf) url(raleway/static/Raleway-Light.ttf) url(raleway/static/Raleway-LightItalic.ttf) url(raleway/static/Raleway-Medium.ttf) 
+    url(raleway/static/Raleway-MediumItalic.ttf) url(raleway/static/Raleway-Regular.ttf) url(raleway/static/Raleway-SemiBold.ttf) url(raleway/static/Raleway-SemiBoldItalic.ttf) url(raleway/static/Raleway-Thin.ttf)
+    url(raleway/static/Raleway-ThinItalic.ttf);
+}
+
+#activites
+{
+    display: flex;
+    height: 390px;
+    justify-content: space-between;
+}
+
+.act-1
+{
+    display: grid;
+    width: 49%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 55% 10% 35%;
+    column-gap: 30px;
+}
+
+.act-2
+{
+    display: grid;
+    width: 49%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 45% 10% 45%;
+    column-gap: 30px;
+}
+    
+#activites div
+{
+    display: flex;
+    max-height: 390px;
+    width: 100%;
+    border: white;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+    overflow: hidden;
+    filter: brightness(110%);
+}
+
+#vieuxport
+{
+    grid-area: 1 / 1 / 4 / 2;
+    background-image: url("images/activites/2_large/vieuxport.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+#pomegues
+{
+    grid-area: 1 / 2 / 2 / 2;
+    background-image: url("../Reservia/images/activites/2_large/pomegues.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+#frioul
+{
+    grid-area: 3 / 2 / 4 / 2;
+    background-image: url("../Reservia/images/activites/2_large/frioul.jpg");
+    background-size: cover;
+    background-position-y: 60%;
+}
+
+#calanque
+{
+    grid-area: 1 / 1 / 4 / 2;
+    background-image: url("../Reservia/images/activites/2_large/calanques.jpg");
+    background-size: cover;
+    background-position-x: 48%;
+}
+
+#lagarde
+{
+    grid-area: 1 / 2 / 2 / 2;
+    background-image: url("../Reservia/images/activites/2_large/lagarde.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#longchamp
+{
+    grid-area: 3 / 2 / 4 / 2;
+    background-image: url("../Reservia/images/activites/2_large/longchamp.jpg");
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+#activites h4
+{
+    background-color: white;
+    position: relative; z-index: 1;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 7px 14px;
+}
+
+#vieuxport h4
+{ 
+    top: 325px;
+}
+
+#pomegues h4 
+{
+    top: 154px;
+}
+
+#frioul h4
+{
+    top: 71px;
+}
+
+#calanque h4
+{
+    top: 325px;
+}
+
+#lagarde h4
+{
+    top: 116px;
+}
+
+#longchamp h4
+{
+    top: 110px;
+}
+
+
+
+
+
+
+
+
+

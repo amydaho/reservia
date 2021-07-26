@@ -1,0 +1,229 @@
+@font-face
+{
+    font-family: "Raleway";
+    src: url(raleway/static/Raleway-Black.ttf) url(raleway/static/Raleway-BlackItalic.ttf) url(raleway/static/Raleway-BoldItalic.ttf) url(raleway/static/Raleway-Bold.ttf) url(raleway/static/Raleway-ExtraLight.ttf) 
+    url(raleway/static/Raleway-ExtraLightItalic.ttf) url(raleway/static/Raleway-Italic.ttf) url(raleway/static/Raleway-Light.ttf) url(raleway/static/Raleway-LightItalic.ttf) url(raleway/static/Raleway-Medium.ttf) 
+    url(raleway/static/Raleway-MediumItalic.ttf) url(raleway/static/Raleway-Regular.ttf) url(raleway/static/Raleway-SemiBold.ttf) url(raleway/static/Raleway-SemiBoldItalic.ttf) url(raleway/static/Raleway-Thin.ttf)
+    url(raleway/static/Raleway-ThinItalic.ttf);
+}
+
+#hebergements
+{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+#resultats
+{
+    min-width: 310px;
+    row-gap: 30px;
+    flex: 65%;
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 32px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.resultats-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px; 
+    row-gap: 30px; 
+    width: 100%;
+}
+
+#resultats h3
+{
+    margin: 25px 0 0 20px;
+}
+
+#resultats article
+{
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+    border-radius: 16px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    padding: 3px 7px 3px 3px;
+}
+
+#resultats article div
+{
+    margin-left: 10px;
+}
+
+#resultats img
+{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+    padding: 2px;
+}
+
+#resultats a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#resultats h4
+{
+    position: relative;
+    top: -14px;
+}
+
+.resultats-2 p
+{
+    font-size: 14px;
+    position: relative;
+    top: -30px;
+    margin: 0 0 10px 0;
+    background-color: white;
+}
+
+#haut-de-page span, #resultats span, #populaires span
+{
+    font-weight: bold;
+}
+
+#resultats i
+{
+    position: relative;
+    top: -36px;
+    color: blue;
+    background-color: white;
+    font-size: smaller;
+}
+
+#cannebiere i:nth-of-type(5)
+{
+    color: silver;
+}
+
+#mouettes i:nth-of-type(5)
+{
+    color: silver;
+}
+#panier i:nth-of-type(5)
+{
+    color: silver;
+}
+
+#hmer i:nth-of-type(4)
+{
+    color: silver;
+}
+
+#hmer i:nth-of-type(5)
+{
+    color: silver;
+}
+
+#populaires
+{
+    min-width: 310px;
+    row-gap: 30px;
+    flex: 30%;
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 32px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#populaires h3
+{
+    margin: 25px 0 0 20px;
+}
+
+#legende
+{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+}
+
+#legende i
+{
+    margin: auto;
+    padding: 25px 0 0 60px;
+    font-size: larger;
+}
+
+.populaires-2
+{
+    display: flex;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.populaires-2 article
+{
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 3px 7px 0 3px;
+    width: 100%;
+}
+
+
+.populaires-2 img
+{
+    
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 16px;
+    padding: 2px;
+}
+
+.populaires-2 div
+{
+    background-color: white;
+    padding-left: 15px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+}
+
+.populaires-2 h4:nth-child(1)
+{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.populaires-2 h4:nth-child(2)
+{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.populaires-2 p
+{
+    padding-bottom: 20px;
+}
+
+.populaires-2 i
+{
+    color: blue;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+#coeureau i:nth-of-type(5)
+{
+    color: silver;
+}
+
+#bleublanc i:nth-of-type(5)
+{
+    color: silver;
+}
+
